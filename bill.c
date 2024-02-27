@@ -82,7 +82,7 @@ int main() {
                 ord.itm[i].item[strlen(ord.itm[i].item) - 1] = '\0';
                 printf("Please enter the quantity:\t");
                 scanf("%d", &ord.itm[i].qty);
-                printf("Please enter the unit price:\t");
+                printf("Please enter the  price:\t");
                 scanf("%f", &ord.itm[i].price);
                 total += ord.itm[i].qty * ord.itm[i].price;
             }
